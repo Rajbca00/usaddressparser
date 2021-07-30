@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have a secondary unit that is not in your library. It is MSC which stands for mail stop code. This is fairly common in higher education institutions.",
+    "LastUpdatedDate": "2013-10-28T12:04:46.513-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "usaddress",
+    "ReportedDate": "2013-10-24T16:18:41.303-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MSC Secondary Unit",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 1030
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Actually, I guess MSC is supposed to proceed the address line according to the below.\r\n\r\nhttp://pe.usps.com/text/pub28/28c2_040.htm",
+      "PostedDate": "2013-10-28T12:04:46.513-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

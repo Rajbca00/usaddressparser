@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1461106",
+    "ThreadId": "650632",
+    "Html": "Rural Routes are being phased out, but USPS still supports them - things like &quot;RR2 box 152&quot;.  Your pattern does not accept them.\r<br />\n<br />\nThese actual addresses confuse the parser:\r<br />\n313 Calle Delicada San Clemente CA 92672\r<br />\n1 Main St 4th Floor Fairfield IA 52556\r<br />\n<br />\nAddresses like this fail:\r<br />\nOne Main St Cambridge MA 02142\r<br />\nthough USPS handles them<br />\n",
+    "PostedDate": "2016-01-28T10:14:58.38-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

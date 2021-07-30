@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "1. 7400 W McNab Rd North Lauderdale, FL 33068‎\n2. 16590 San Carlos Blvd Fort Myers, FL 33908‎\n\nproblem with \"Fort\" and \"North\" in City",
+    "LastUpdatedDate": "2016-08-22T22:21:23.49-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "usaddress",
+    "ReportedDate": "2016-08-22T22:21:23.49-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Parser does now work for following addresses",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 1435
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

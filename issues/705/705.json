@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When i run the project in IIS7,  ParseAddress( ) does not respond. The server waits for an answer indefinitely. \n \nThe issue has been reproduced on different servers. It only happens on IIS, not in the Visual Studio dev servers.",
+    "LastUpdatedDate": "2014-10-16T12:09:09.83-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "usaddress",
+    "ReportedDate": "2012-08-15T15:43:45.77-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "No response in IIS7",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 705
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "we've the similar problem with parser..",
+      "PostedDate": "2013-01-10T19:19:46.99-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "we've the similar problem. It just works fine locally. When we deploy to IIS7, it just hangs.",
+      "PostedDate": "2013-01-10T19:21:33.3-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T11:16:21.5-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Just adding a bit to this issue - it's happening for us as well, and appears to get stuck on the RegEx matching.  Specifically, line 604 of AddressParser.cs is where it just spins forever:\r\n\r\n```\nvar match = addressRegex.Match(input.ToUpperInvariant());\n```\r\n\r\nI've tried it with many different addresses, many very simple, but it always gets stuck when running in IIS 7.",
+      "PostedDate": "2013-09-03T12:25:10.7-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-09-03T13:17:34.82-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I missed the answer to this, since it was [posted in a separate issue](https://usaddress.codeplex.com/workitem/852), but I can confirm that it works!  To save you a click, and keep the solution in the issue it was raised in, just set the \"Enable 32 bit Applications\" flag to True on your app pool and AddressParser works just fine.",
+      "PostedDate": "2013-09-04T14:05:17.723-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "When I removed the RegexOptions.Compiled from the regex definition the problem when away for me.",
+      "PostedDate": "2013-11-20T11:22:22.77-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thank you, TruxCpwr.  Your solution worked for me.\r\n\r\nI was doing some initial testing using NUnit and everything worked fine.  When I started using the library in my web application I encountered the same trouble that diggityDawg mentioned.  For what it's worth, I also received the error in a Console application, so my trouble was not IIS-specific.",
+      "PostedDate": "2014-10-16T12:09:09.83-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

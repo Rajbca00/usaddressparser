@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "enable 32 bit application flag on your app pool. It works fine.",
+    "LastUpdatedDate": "2013-09-04T14:00:51.293-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "usaddress",
+    "ReportedDate": "2013-01-10T19:46:06.45-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Answer to IIS7 slow down",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 852
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Thanks!  I can confirm this worked for me as well.",
+      "PostedDate": "2013-09-04T14:00:51.293-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

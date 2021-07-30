@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "996699",
+    "ThreadId": "432044",
+    "Html": "Thank you for posting this C# project -- I've found it most useful. I couldn't help but notice the pattern matching for the regex seemed oddly slow, so I examined the pattern and found that the base pattern (fed into string.Format and resulting in 'addressPattern') has three main cases: one for APO/FPO/DPO addresses, one for PO boxes, and one for everything else. The first case (APOs and such) starts out with a carrot. The other two do not.\r<br />\n<br />\nIt seems somewhat bizarre to me that one address format must be at the start of a line or string where the other two do not have this requirement. Was this intentional?\r<br />\n<br />\nI simply put carrots in front of the other two cases and the performance and behavior is as I'd expect.<br />\n",
+    "PostedDate": "2013-02-05T07:00:08.56-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

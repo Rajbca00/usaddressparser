@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "839134",
+    "ThreadId": "356606",
+    "Html": "\r\n<p>Can you tell us which parts of the code you got from the original Perl, and maybe an idea how authoritative that source was? I ask because I think some areas of the regex could be improved. The numberPattern part, for example. I see ways to decrease unnecessary\r\n backtracking, and I'm wondering if I'm missing something that some Perl genius intended to do. Also, is there any reason you haven't used\r\n<span style=\"background-color:white\">RegexOptions.ExplicitCapture</span><span style=\"background-color:white\">?&nbsp;</span></p>\r\n",
+    "PostedDate": "2012-05-21T14:21:52.723-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "842555",
+    "ThreadId": "356606",
+    "Html": "<p>95% is derived from the original Perl source at http://cpansearch.perl.org/src/SDERLE/Geo-StreetAddress-US-0.99/US.pm</p>\r\n<p>I started at the top of the file and translated to C# as I went.</p>\r\n<p>RegexOptions.ExplicitCapture wasn't used presumably because Perl does not support this option, I didn't know it existed, and the original expressions within Perl used the ?: syntax, so I kept that during the translation.</p>\r\n<p>The hardest part of the translation was that the original Perl uses variable assignment inline with the regular expression, something that C# doesn't support. It's certainly possible that some of those non-capturing groups are no longer necessary.</p>\r\n<p>Any feedback is welcome!</p>",
+    "PostedDate": "2012-05-30T07:08:41.747-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

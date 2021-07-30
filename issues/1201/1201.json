@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Streetline drops the RT part of \"RT 2 Box 333\".  I'm willing to try to fix that, but it would be helpful if someone who understands the code could point me to where this might be implemented.",
+    "LastUpdatedDate": "2014-07-17T15:05:17.95-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "usaddress",
+    "ReportedDate": "2014-07-17T15:05:17.95-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Address Parser doesn't recognize RT (route).",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 1201
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

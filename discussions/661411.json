@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1492811",
+    "ThreadId": "661411",
+    "Html": "I used this code in a WCF service which was hosted in IIS. When the WCF method was called the CPU would max out and the memory would grow to 100% and the call will eventually time out. The memory would not be released until the app pool was recycled.\r<br />\n<br />\nI ended up resolving it by removing Compiled parameter on the regex objects. I dont know what caused the issue or why this fixed it but I hope this helps someone. Interestingly, when running this code in a console program I can process 50,000 entries with no issues.\r<br />\n<br />\nA little background: I was calling ParseAddress from an objects constructor. I dont know if that made a difference.<br />\n",
+    "PostedDate": "2017-02-16T16:37:22.337-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

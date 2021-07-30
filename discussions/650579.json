@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1460945",
+    "ThreadId": "650579",
+    "Html": "I wanted to add another high-level pattern to addressPattern, and found that to make that work I needed to add an opening paren after your first ^ and a closing paren before your $.\r<br />\n<br />\nNice work though!<br />\n",
+    "PostedDate": "2016-01-27T16:48:58.29-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1064883",
+    "ThreadId": "449151",
+    "Html": "The parser returns Fort before Road if the city has Fort in its name. Is it possible to modify the parser regex to only parse an address line without inputs for city, state and zip code? All of my attempts so far have failed.<br />\n",
+    "PostedDate": "2013-07-05T06:55:42.823-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

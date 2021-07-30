@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I've seen in our address database a number of addresses that have the predirectional at the front of the address line. Such as ...\n\nE 725 Main St.\n\nThe library doesn't pick out the predirectional in this pattern.",
+    "LastUpdatedDate": "2013-11-18T16:25:17.807-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "usaddress",
+    "ReportedDate": "2013-10-24T16:23:38.28-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Predirectional at front of address",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 1031
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I added the below code to the ParseAddress method right below the line \"var extracted = GetApplicableFields(match);\" to match this case.\r\n\r\n```\n//Check if predirectional appears first in input string and add to extracted\nforeach (KeyValuePair<string, string> entry in directionals)\n{\n\tif ((input.Length >= entry.Key.Length + 1 && input.Substring(0, entry.Key.Length + 1).ToLower() == entry.Key.ToLower() + \" \") || (input.Length >= entry.Value.Length + 1 && input.Substring(0, entry.Value.Length + 1).ToLower() == entry.Value.ToLower() + \" \"))\n\t{\n\t\textracted.Add(\"PREDIRECTIONAL\", entry.Value);\n\t\tbreak;\n\t}\n}\n```",
+      "PostedDate": "2013-11-18T16:25:17.807-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

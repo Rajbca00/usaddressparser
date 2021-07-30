@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "So lets says the address is 2 Main St 1001, New York NY 10001. \n\nThe return is 2 Main St 1001,New York NY 10001. How to get the 1001 APT to the SecondaryNumber?\nRESULT: 2 MAIN ST 1001; NEW YORK, NY 10001\n                          City : NEW YORK\n                        Number : 2\n               Postdirectional :\n                Predirectional :\n               SecondaryNumber :\n                 SecondaryUnit :\n                         State : NY\n                        Street : MAIN ST 1001\n                    StreetLine : 2 MAIN ST 1001\n                        Suffix :\n                           Zip : 10001",
+    "LastUpdatedDate": "2014-05-30T09:43:15.727-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "usaddress",
+    "ReportedDate": "2014-05-30T09:43:15.727-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SECONDARYUNIT with no \"APT\"",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 1174
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

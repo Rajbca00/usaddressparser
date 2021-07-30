@@ -1,0 +1,61 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The Special case in AddressParser.cs for PO boxes (lines 865 thru 882) doesn't match PO boxes with letters, for example:\nPO Box K, Michigan City, IN 46361-0320\n \nI have attached a patched copy of the AddressParser.cs and AddressParserTest.cs with the matching added.",
+    "LastUpdatedDate": "2013-02-14T11:16:21.72-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "usaddress",
+    "ReportedDate": "2012-07-20T14:50:46.583-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Regex for PO Box doesn't match letters.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 661
+  },
+  "FileAttachments": [
+    {
+      "FileId": 147,
+      "FileName": "AddressParser.cs",
+      "DownloadUrl": ".\\147"
+    },
+    {
+      "FileId": 148,
+      "FileName": "AddressParserTest.cs",
+      "DownloadUrl": ".\\148"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Ooops...almost forgot the unit tests....",
+      "PostedDate": "2012-07-20T14:51:35.94-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T11:16:21.72-08:00",
+      "Id": -2147483648
+    }
+  ]
+}
